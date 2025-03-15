@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
+    "dev:default": "slidev default.md --open",
     "dev": "slidev --open",
     "export": "slidev export"
   },
