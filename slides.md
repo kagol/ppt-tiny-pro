@@ -23,3 +23,11 @@ mdc: true
 ---
 
 # TinyPro
+
+---
+src: ./pages/gaonengwww/index.md
+---
+
+---
+src: ./pages/kagol/index.md
+---
