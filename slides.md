@@ -5,7 +5,8 @@ theme: seriph
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
-title: Welcome to Slidev
+title: TinyPro：一行代码搭建一个包含前后端的后台管理系统，支持组件粒度的权限管理，开箱即用！
+favicon: ./favicon.ico
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
