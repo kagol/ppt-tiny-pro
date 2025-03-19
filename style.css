@@ -5,3 +5,15 @@
 .slidev-vclick-hidden {
     transform: scale(0);
 }
+
+.slidev-layout.cover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("./bg.png") !important;
+}
+
+.slidev-layout h1 + p {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    opacity: 0.7;
+}
