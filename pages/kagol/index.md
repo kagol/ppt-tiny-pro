@@ -6,13 +6,24 @@
 4. 使用成本低：支持在线方式快速配置角色、用户、菜单、权限、国际化词条，无需写代码，用户使用成本低，没有开发基础的设计师、产品经理也能操作
 5. 开发者友好：支持 Vite、Webpack、Rspack、Farm 等多种构建工具
 
+
 ---
+
+<div flex flex-col h-full>
+
+<div h-fit>
 
 # 项目目录结构
 
-后端项目目录结构（仅列出关键目录和文件）
+</div>
 
-```
+<div grid grid-cols-2 gap-4>
+
+<div shrink-0 grow-0 h-full>
+
+#### 后端项目目录结构（仅列出关键目录和文件）
+
+```bash {*}{maxHeight:'300px'}
 tiny-pro/nestJs
 ├── README.md
 ├── docker-compose.yml
@@ -99,9 +110,13 @@ tiny-pro/nestJs
 └── tsconfig.json
 ```
 
-前端项目目录结构（仅列出关键目录和文件）
+</div>
 
-```
+<div shrink-0 grow-0 h-full>
+
+#### 前端项目目录结构（仅列出关键目录和文件）
+
+```bash {*}{maxHeight:'300px'}
 web
 ├── config // Vite 配置
 |  ├── plugin
@@ -231,6 +246,12 @@ web
 └── tsconfig.json
 ```
 
+</div>
+
+</div>
+
+</div>
+
 ---
 layout: two-cols-header
 ---
@@ -238,7 +259,7 @@ layout: two-cols-header
 
 ::left::
 
-## 后端:
+#### 后端:
 
 - 表结构设计
 - 接口规划
@@ -256,7 +277,7 @@ layout: two-cols-header
 
 ::right::
 
-## 前端：
+#### 前端：
 
 - 创建国际化词条、创建菜单、绑定目录
 - 编写订单列表页面
