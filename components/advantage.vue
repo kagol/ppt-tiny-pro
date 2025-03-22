@@ -1,13 +1,13 @@
 <script lang="ts" setup>
 const datas = [
     { title: '细颗粒度权限管理', img: '细颗粒度权限管理.png' },
-    { title: '多种布局', img: '多种布局.png'},
-    { title: '多种主题', img: '多种主题.png'},
-    { title: '国际化', img: '国际化.png'},
     { title: '可视化创建国际化', img: '可视化创建国际化.png'},
     { title: '可视化绑定菜单', img: '可视化绑定菜单.png'},
     { title: '可视化创建菜单', img: '可视化创建菜单.png'},
     { title: '可视化角色管理', img: '角色管理.png'},
+    { title: '多种布局', img: '多种布局.png'},
+    { title: '多种主题', img: '多种主题.png'},
+    { title: '国际化', img: '国际化.png'},
 ]
 </script>
 
