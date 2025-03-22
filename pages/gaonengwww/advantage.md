@@ -1,8 +1,12 @@
+---
+clicks: 7
+---
+
 ## 我们的优势
 
-功能
+<advantage />
 
-<v-clicks>
+<!-- <v-clicks>
 
 - 组件粒度的权限管理
 - 页签模式
@@ -14,18 +18,7 @@
 - 可视化创建角色、权限
 - ...
 
-</v-clicks>
-
-<style>
-.slidev-vclick-target {
-    transition: all 800ms ease;
-}
-
-.slidev-vclick-hidden {
-    transform: translateY(20px);
-    filter:blur(5px);
-}
-</style>
+</v-clicks> -->
 
 ---
 clicks: 7

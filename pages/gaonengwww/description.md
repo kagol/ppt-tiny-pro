@@ -20,6 +20,31 @@
 </div>
 
 ---
+layout: center
+transition: view-transition
+mdc: true
+---
+
+## 一个页面是如何诞生的 {.inline-block.view-transition-title}
+
+---
+layout: center
+transition: view-transition
+mdc: true
+---
+
+## 一个页面是如何诞生的 {.inline-block.view-transition-title}
+
+<img src="/images/old.svg" size-full class="view-transition-img" />
+
+---
+
+## 一个页面是如何诞生的 {.inline-block.view-transition-title}
+
+<img src="/images/new.svg" size-full class="view-transition-img" />
+
+
+---
 clicks: 7
 ---
 
@@ -30,7 +55,7 @@ clicks: 7
 
 <div flex flex-col shrink-0 grow-0 items-center justify-between gap-4>
 
-<img src="/images/ant-design.png"
+<img src="/images/ruoyi.png"
 w-20
 h-20
 v-click="1"
@@ -40,7 +65,7 @@ v-motion
 :click-4="{y: 0, transition: {type: 'linear'}}"
 />
 
-<img src="/images/ant-design-pro.png" w-full v-click="4" :delay="200" />
+<img src="/images/ruoyi-preview.png" w-full v-click="4" :delay="200" />
 
 <div w-full flex items-center justify-center v-click="5">
 
@@ -52,16 +77,19 @@ v-motion
 
 <div flex flex-col shrink-0 grow-0 items-center justify-between gap-4>
 
-<img src="/images/arco-design.png" w-20 h-20 v-click="2"
+<img src="/images/ant-design.png"
+w-20
+h-20
+v-click="2"
 v-motion
 :initial="{scale: 0, opacity: 0, y: 100}"
-:click-2="{scale: 1, opacity: 1, y: 100}"
+:click-1="{scale: 1, opacity: 1, y: 100}"
 :click-4="{y: 0, transition: {type: 'linear'}}"
 />
 
-<img src="/images/arco-design-pro.png" w-full v-click="4" :delay="200" />
+<img src="/images/ant-design-pro.png" w-full v-click="4" :delay="200" />
 
-<div v-click="6" w-full flex items-center justify-center>
+<div w-full flex items-center justify-center v-click="6">
 
 <span>官方实现</span>
 
@@ -71,33 +99,21 @@ v-motion
 
 <div flex flex-col shrink-0 grow-0 items-center justify-between gap-4>
 
-<img src="/images/element-plus.png" h-20
-v-click="3"
+<img src="/images/arco-design.png" w-20 h-20 v-click="3"
 v-motion
 :initial="{scale: 0, opacity: 0, y: 100}"
-:click-3="{scale: 1, opacity: 1, y: 100}"
-:click-4="{y: 10, transition: {type: 'linear'}}"
+:click-2="{scale: 1, opacity: 1, y: 100}"
+:click-4="{y: 0, transition: {type: 'linear'}}"
 />
 
-<img
-src="/images/element-plus-admin.png"
-w-full
-v-click="4"
-:delay="200"
-/>
+<img src="/images/arco-design-pro.png" w-full v-click="4" :delay="200" />
 
-<div w-full flex items-center justify-center v-click="7">
+<div v-click="7" w-full flex items-center justify-center>
 
-<span>社区实现</span>
+<span>官方实现</span>
 
 </div>
 
 </div>
 
 </div>
-
-<!--
-简单介绍 AntDesign Pro, ArcoDesign Pro, ElementPlus Admin. 的缺点
-
-- 没有后端
--->

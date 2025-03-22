@@ -39,7 +39,7 @@ const isFarm = computed(() => $clicks.value === P+7)
     </div>
 </template>
 
-<style>
+<style scoped>
 .wrapper {
     mask-image: linear-gradient(#000,#000,transparent 0,#000 5px,#000 calc(100% - 5px),transparent);
 }
