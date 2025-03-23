@@ -7,21 +7,6 @@
 5. 开发者友好：支持 Vite、Webpack、Rspack、Farm 等多种构建工具
 
 ---
-
-<author
-    author-name="Kagol"
-    avatar="https://avatars.githubusercontent.com/u/9566362?v=4"
-    :desc="['华为云前端工程师, OpenTiny 开源社区负责人', 'TinyVue 核心贡献者, TinyEditor 作者', '公众号：前端开源星球' ]"
-    :team-of="[{name: 'OpenTiny', link: 'https://github.com/opentiny'}]"
-    :contribution="[
-        { name: 'TinyVue', link: 'https://github.com/opentiny/tiny-vue' },
-        { name: 'TinyEngine', link: 'https://github.com/opentiny/tiny-engine' },
-        { name: 'TinyEditor', link: 'https://github.com/opentiny/tiny-editor' }, 
-        { name: 'TinyPro', link: 'https://github.com/opentiny/tiny-cli' },
-    ]"
-/>
-
----
 src: ./directory-structure.md
 ---
 
@@ -79,8 +64,8 @@ src: ./build-order-system.md
 
 # 如何参与共建
 
-- Issue 任务
-- 贡献指南
+- 阅读贡献指南
+- 领取 Issue 任务
 
 ---
 

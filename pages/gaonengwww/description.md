@@ -5,6 +5,7 @@
 <v-clicks>
 
 - tiny-cli 的一个 toolkit
+- 基于 TinyVue 组件库
 - 一站式
 - 开箱即用
 - 中后台模板
