@@ -15,7 +15,7 @@ const datas = [
     <div class="w-full h-fit mt-4 flex flex-col items-center justify-center gap-2 overflow-hidden">
         <div class="w-full h-[350px]">
             <transition name="fade-slide-top" mode="out-in">
-                <img :key="$clicks" :src="`/images/${datas[$clicks].img}`" alt="" class="h-full mx-auto" />
+                <img :key="$clicks" :src="`images/${datas[$clicks].img}`" alt="" class="h-full mx-auto" />
             </transition>
         </div>
         <transition name="fade-slide-top" mode="out-in">
