@@ -44,9 +44,6 @@ layout: two-cols-header
 - 编写新建订单页面
 - 文件上传
 
-小作业：
-- 增加编辑订单功能
-
 ---
 src: ./build-order-system.md
 ---
