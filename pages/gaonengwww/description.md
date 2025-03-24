@@ -20,6 +20,20 @@
 
 </div>
 
+
+<style>
+.slideev-vcilck-target{
+    transition: all 1s ease;
+    filter: blur(0px);
+    opacity: 1;
+}
+.slidev-vclick-hidden{
+    filter: blur(2px);
+    transform: translateY(20px);
+    opacity: 0;
+}
+</style>
+
 ---
 layout: center
 transition: view-transition
