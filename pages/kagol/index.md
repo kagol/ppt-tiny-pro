@@ -31,7 +31,6 @@ layout: two-cols-header
     - 分页
     - 筛选
   - 修改订单
-- 自测
 
 ::right::
 
@@ -43,9 +42,6 @@ layout: two-cols-header
 - 分页、筛选
 - 编写新建订单页面
 - 文件上传
-
-小作业：
-- 增加编辑订单功能
 
 ---
 src: ./build-order-system.md
