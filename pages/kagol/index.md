@@ -67,7 +67,7 @@ src: ./build-order-system.md
 
 <div class="text-2xl mt-[100px]">
 
-官网：[https://opentiny.design/vue-pro/](https://opentiny.design/vue-pro/)
+官网：[https://opentiny.design/pro/](https://opentiny.design/pro/)
 
 源码：[https://github.com/opentiny/tiny-cli/](https://github.com/opentiny/tiny-cli/)（欢迎 ⭐️）
 
