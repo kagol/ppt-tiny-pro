@@ -31,7 +31,6 @@ layout: two-cols-header
     - 分页
     - 筛选
   - 修改订单
-- 自测
 
 ::right::
 
