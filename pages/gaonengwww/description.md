@@ -1,5 +1,10 @@
 ## TinyPro 是什么?
 
+
+官网：[https://opentiny.design/pro](https://opentiny.design/pro)
+
+源码：[https://github.com/opentiny/tiny-cli](https://github.com/opentiny/tiny-cli)
+
 <div flex gap-2 justify-between mt-8 >
 
 <v-clicks>
