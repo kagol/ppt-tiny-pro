@@ -38,6 +38,20 @@ src: ./build-order-system-frontend.md
 
 ---
 
-# 小结
+# 小结：如何给 TinyPro 增加订单管理模块
 
-一张 Mermaid 流程图
+<div mt-8></div>
+
+后端接口开发：
+
+```mermaid
+flowchart LR
+    设计数据库表结构-->设计接口协议-->开发后端服务和接口
+```
+
+前端页面开发：
+
+```mermaid
+flowchart LR
+    在线创建菜单/路由-->使用TinyVue搭建页面-->对接后端接口
+```
