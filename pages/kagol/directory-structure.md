@@ -10,7 +10,7 @@
 
 <div shrink-0 grow-0 h-full>
 
-#### 后端项目目录结构（仅列出关键目录和文件）
+#### 后端
 
 ```bash {*}{maxHeight:'300px'}
 tiny-pro/nestJs
@@ -103,13 +103,12 @@ tiny-pro/nestJs
 
 <div shrink-0 grow-0 h-full>
 
-#### 前端项目目录结构（仅列出关键目录和文件）
+#### 前端
 
 ```bash {*}{maxHeight:'300px'}
-web
+tiny-pro/web
 ├── config // Vite 配置
 |  ├── plugin
-|  |  ├── arcoResolver.ts
 |  |  ├── compress.ts
 |  |  ├── imagemin.ts
 |  |  └── visualizer.ts
@@ -240,3 +239,15 @@ web
 </div>
 
 </div>
+
+<!--
+前面高能已经带大家体验了 TinyPro 后台管理系统的基本使用，作为程序员，大家一定还是对代码比较感兴趣，想要迫不及待地看下它的源码，了解它的具体实现了吧？
+
+接下来我就给大家分析下 TinyPro 项目的源码结构，带大家“一探究竟”！
+
+`tiny init pro` 创建出来的项目，最外层主要包含两个目录：nestJs 和 web。
+
+nestJs 是后端代码，web 是前端代码。
+
+我们先来看下 nestJs 目录...
+-->
