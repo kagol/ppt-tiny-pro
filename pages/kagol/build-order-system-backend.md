@@ -6,6 +6,10 @@ mdc: true
 
 # 实操：搭建订单管理后端
 
+<!--
+话不多说，开始开干！先搭后端！
+-->
+
 ---
 
 # 表结构设计
@@ -52,6 +56,10 @@ export class Order {
 }
 ```
 
+<!--
+在实际写代码之前，我们先做一些前期设计的工作，先设计数据库表结构...
+-->
+
 ---
 
 # 接口设计
@@ -66,6 +74,14 @@ export class Order {
 |size|query|number| 否 |页大小|
 |filter|query|string| 否 |筛选逻辑。模糊搜索 name 和 orderId 两个字段|
 
+<!--
+然后是设计接口，我们以获取订单列表接口为例，其他接口也是一样设计的。
+
+先设计入参，需要哪些请求参数，这些参数放在哪里，比如是放在 query 里还是 body 里，参数类型是什么，是否是必选等。
+
+订单列表接口是一个 GET 请求，包含...
+-->
+
 ---
 
 ### 返回结果
@@ -75,6 +91,10 @@ export class Order {
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|成功|Inline|
 |401|[Unauthorized](https://tools.ietf.org/html/rfc7235#section-3.1)|401 未登录|Inline|
 |403|[Forbidden](https://tools.ietf.org/html/rfc7231#section-6.5.3)|403 权限不足|Inline|
+
+<!--
+设计好入参，就是返回结果的设计，先设计状态码，我们一共设计了 200 成功、401 未登录、403 权限不足三种状态码，每种状态码都有对应的返回数据结构。
+-->
 
 ---
 
@@ -91,6 +111,10 @@ export class Order {
 |»» createAt|string|true|none||none|
 |»» ...||||||
 |» total|integer|true|none||none|
+
+<!--
+我们以 200 状态码为例，返回结果包含 items 订单列表数据和 total 总订单数两个字段，total 主要用于分页，items 是一个数组，包含了当前用户下的所有订单数据。
+-->
 
 ---
 
@@ -117,6 +141,12 @@ export class Order {
 }
 ```
 
+<!--
+如果前端页面请求该接口顺利的话，接口将返回类似如下的数据，前端拿到该数据就可以在页面进行渲染啦。
+
+经过前期的设计工作，是不是整个流程就瞬间清晰了，所以说开始写代码之前，花点时间做设计是有好处的，可以让自己更加胸有成竹！
+-->
+
 ---
 
 # 接口实现
@@ -136,6 +166,10 @@ export class Order {
 ├── order.module.ts # 订单模块入口，声明 controller 和 service
 └── order.service.ts # 订单数据逻辑，被 controller 消费
 ```
+
+<!--
+好了，现在正式开始开发接口，我们先把目录结构规划下...
+-->
 
 ---
 
