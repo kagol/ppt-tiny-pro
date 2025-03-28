@@ -75,6 +75,12 @@ layout: two-cols-header
 src: ./build-order-system.md
 ---
 
+<!--
+到此我们的订单管理模块前后端就完成搭建了，看下大家有没有什么问题。
+
+...(答疑环节)
+-->
+
 ---
 
 # 未来规划
@@ -84,12 +90,24 @@ src: ./build-order-system.md
 - Java Spring Boot 后端
 - 支持 AI
 
+<!--
+接下来给大家聊聊我们的未来规划...
+-->
+
 ---
 
 # 如何参与共建
 
 - 阅读贡献指南
 - 领取 Issue 任务
+
+<!--
+如果你对我们 TinyPro 项目感兴趣，也欢迎参与共建，可以先阅读下我们的贡献指南，了解基本的 Issue 和 PR 提交流程和规范。
+
+如果你在使用 TinyPro 的过程中发现了问题，欢迎通过 Issue 进行反馈，也可以自己尝试进行修复，并提交 PR，我们非常欢迎你参与进来！
+
+你也可以查看现有的 Issue 和 Discussion 列表，如果有感兴趣的任务，也欢迎进行交流和任务认领。
+-->
 
 ---
 
@@ -105,6 +123,16 @@ src: ./build-order-system.md
   <img src="/images/opentiny.png" alt="OpenTiny QR Code" width=120 />
   <span>OpenTiny 小助手微信</span>
 </div>
+
+<!--
+时间不早了，今晚非常感谢屏幕前的朋友们。
+
+大家可以关注下微信视频号“OSC 开源社区”，也就是点击屏幕左上角，关注一下，可以观看直播回放。
+
+如果你对我们 TinyPro 感兴趣，也欢迎给我们点个 Star 支持下，以及添加 OpenTiny 小助手微信，一起交流和成长！
+
+本次直播到此结束，谢谢大家，下次见！
+-->
 
 ---
 layout: end

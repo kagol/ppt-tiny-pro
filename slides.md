@@ -29,6 +29,14 @@ mdc: true
 
 [https://opentiny.design/](https://opentiny.design/)
 
+<!--
+屏幕前的朋友们，大家好，欢迎来到“OSC 开源社区”直播间。
+
+今晚我和高能跟大家聊一聊我们的开源项目——TinyPro，一个开箱即用的包含前后端的后台管理系统，支持组件粒度的权限管理！
+
+我是 Kagol，先来做个自我介绍。
+-->
+
 ---
 src: ./pages/gaonengwww/index.md
 ---
